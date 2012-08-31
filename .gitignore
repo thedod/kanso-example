@@ -1,3 +1,3 @@
 .kansorc
 packages
-data/*-with-ids.json
+data/with-ids
