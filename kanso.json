@@ -2,14 +2,21 @@
     "name": "example-app",
     "version": "0.0.1",
     "description": "The simplest possible app",
-    "attachments": ["index.html"],
+    "attachments": ["index.html", "static"],
     "modules": ["lib"],
+    "less": {
+        "compress": true,
+        "compile": ["static/css/example.less"],
+        "remove_from_attachments": true
+    },
     "load": "lib/app",
     "dependencies": {
         "attachments": null,
         "modules": null,
         "properties": null,
         "db": null,
-        "jquery": null
+        "jquery": null,
+        "less-precompiler": null,
+        "bootstrap": null
     }
 }
