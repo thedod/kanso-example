@@ -2,20 +2,22 @@
     "name": "example-app",
     "version": "0.0.1",
     "description": "The simplest possible app",
-    "attachments": ["index.html", "static"],
+    "attachments": ["static"],
     "modules": ["lib"],
+    "load": "lib/app",
+    "dust": { "templates": "templates" },
     "less": {
         "compress": true,
         "compile": ["static/css/example.less"],
         "remove_from_attachments": true
     },
-    "load": "lib/app",
     "dependencies": {
         "attachments": null,
         "modules": null,
         "properties": null,
         "db": null,
         "jquery": null,
+        "dust": null,
         "less-precompiler": null,
         "bootstrap": null
     }
