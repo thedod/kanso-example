@@ -1,7 +1,7 @@
 {
     "name": "example-app",
     "version": "0.0.1",
-    "description": "The simplest possible app",
+    "description": "The simplest possible app (with dust and bootstrap)",
     "attachments": ["static"],
     "modules": ["lib"],
     "load": "lib/app",
