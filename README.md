@@ -3,7 +3,7 @@ Kanso boilerplate
 
 Just trying to continue beyond the last step of kanso's [getting started](http://kan.so/docs/Third-party_modules) and make a simple app that has a view, a show, and a list. Also uses the [bootstrap package](http://kan.so/packages/details/bootstrap) (nothing fancy. Mainly shows that the less compiler works).
 
-This branch also uses dust templates (without the duality framework).
+This branch also uses [dust](http://akdubya.github.com/dustjs/) templates (without the [duality](http://kan.so/docs/Duality) framework).
 
 Instead of a static index.html, we use the `templates/homepage.html` template,
 which is actually a static page (no `{...}` fields).
