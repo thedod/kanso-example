@@ -1,7 +1,7 @@
 {
     "name": "example-app",
     "version": "0.0.1",
-    "description": "The simplest possible app",
+    "description": "Simplest possible app (with bootstrap)",
     "attachments": ["index.html", "static"],
     "modules": ["lib"],
     "less": {

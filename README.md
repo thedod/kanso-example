@@ -5,4 +5,6 @@ Just trying to continue beyond the last step of kanso's [getting started](http:/
 
 To upload the sample data, run `./upload-data.sh http://localhost:5984/example`
 
+See also other branches (e.g. `dust`) for additional experiments
+
 Hope it's useful
