@@ -1,5 +1,6 @@
-Kanso boilerplate
------------------
+### Kanso example (dust branch)
+
+See [demo](https://thedod.iriscouch.com/example/_design/example-app/_rewrite/)
 
 Just trying to continue beyond the last step of kanso's [getting started](http://kan.so/docs/Third-party_modules) and make a simple app that has a view, a show, and a list. Also uses the [bootstrap package](http://kan.so/packages/details/bootstrap) (nothing fancy. Mainly shows that the less compiler works).
 
